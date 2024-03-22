@@ -1,70 +1,28 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Video Link :-  https://youtu.be/9i9cyh1jvHs
 
-## Available Scripts
+* Project Overview:
 
-In the project directory, you can run:
+The project is a web application designed it is actually a dashboard interface where users can view and analyze data through interactive charts and graphs.
 
-### `npm start`
+* Key Features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Navigation :- i use navigation so can user can  easily navigate between different sections of the dashboard
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Response Times:- Users can choose to view response times either on a daily or weekly basis using a dropdown menu.
+The response times are visualized using a line chart, providing insights into response time trends over time.
 
-### `npm test`
+- Usage Statistics:- The "Usage Statistics" section presents usage statistics categorized by platform or country. Users can switch between viewing statistics by platform or country using a dropdown menu. The statistics are displayed using a doughnut chart
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- User Satisfaction:- in the User Satisfaction Users can select between different chart types (pie, line, or bar) to visualize user satisfaction ratings.
 
-### `npm run build`
+- Reresponsive Design:- i make this project Reresponsive for small devices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Technologies Used:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js: Used for building the user interface components and managing the application's front-end logic.
+- redux toolkit :- use redux toolkit  for data management 
+- Chart.js: Utilized for rendering interactive and customizable charts and graphs within the application.
+- routing :- to navigate  different component in react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
