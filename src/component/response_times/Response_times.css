@@ -1,0 +1,134 @@
+.ResponseTimesSection {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.chart {
+    width: 60%;
+    height: 500px;
+    background-color: #f5f6f8;
+    padding: 20px;
+}
+
+/* DropDown */
+
+
+.ResponseTimeDropDown {
+    position: absolute;
+    right: 50px;
+    top: -50px;
+    z-index: 5;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #f67e99;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover {
+    background-color: #ff9eb3;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+/* Show the dropdown content when the dropdown is hovered over */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown links/buttons */
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    margin: 2px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    background-color: #f1f1f1;
+    width: 105px;
+    border: 1px solid #bbbbbb;
+}
+
+/* Change color of dropdown links/buttons on hover */
+.dropdown-content button:hover {
+    background-color: #ddd;
+}
+
+/* Style the selected option */
+.dropdown-content button.active {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive Code*/
+
+@media (max-width:1200px) {
+    .chart {
+        width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+    .chart {
+        width: 97%;
+    }
+}
+
+@media (max-width:600px) {
+    .chart {
+        height: 400px;
+    }
+
+    .dropbtn {
+        padding: 8px;
+    }
+
+    .dropdown-content button {
+        width: 92px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width:500px) {
+    .chart {
+        height: 350px;
+    }
+
+    .dropbtn {
+        padding: 8px;
+    }
+
+    .dropdown-content button {
+        width: 92px;
+        padding: 8px 16px;
+    }
+}

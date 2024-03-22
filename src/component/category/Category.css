@@ -1,0 +1,130 @@
+
+
+/* Navbar Section */
+
+.NavbarSection img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.NavbarSection {
+    display: flex;
+    align-items: center;
+}
+
+.LogoName {
+    color: var(--logo-test-color);
+}
+
+.Navbar {
+    background-color: var(--nav-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    justify-content: space-between;
+}
+
+.NavbarMenu {
+    display: none;
+}
+
+
+/* Mobile navbar  */
+
+.MobileNavbar {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    z-index: 15;
+    display: none;
+    background-color: white;
+}
+
+.MobileNavbar ul li {
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 5px;
+    list-style: none;
+    margin-right: 15px;
+}
+
+
+
+
+/* category section */
+
+
+.CategorySection {
+    display: flex;
+    align-items: center;
+}
+
+.CategorySection ul {
+    display: flex;
+}
+
+.CategorySection ul li {
+    color: var(--category-list-color);
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 5px;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.CategorySection ul li:hover {
+    background-color: #f2f2f2;
+    color: var(--category-list-hover);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    width: 100%;
+    padding: 15px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 5px;
+    background-color: var(--active-class-category);
+}
+
+.theme img {
+    cursor: pointer;
+    width: 27px;
+    margin-left: 10px;
+}
+
+
+
+
+/* Responsive code  */
+
+@media (max-width:820px) {
+    .CategorySection ul li {
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+    .Navbar {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width:750px) {
+    .CategorySection {
+        display: none;
+    }
+
+    .MobileNavbar {
+        display: block;
+    }
+
+    .NavbarMenu {
+        display: block;
+    }
+}

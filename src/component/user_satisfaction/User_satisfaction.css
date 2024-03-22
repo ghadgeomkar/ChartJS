@@ -1,0 +1,47 @@
+.UserSatisfactionSection {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.UserSatisfactionchart {
+    width: 50%;
+    height: 500px;
+    background-color: #f5f6f8;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* Responsive Code*/
+
+@media (max-width:1200px) {
+    .UserSatisfactionchart {
+        width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+    .UserSatisfactionchart {
+        width: 97%;
+    }
+}
+
+@media (max-width:600px) {
+    .UserSatisfactionchart {
+        height: 400px;
+    }
+}
+
+@media (max-width:500px) {
+    .UserSatisfactionchart {
+        height: 350px;
+    }
+}

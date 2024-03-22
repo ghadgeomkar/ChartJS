@@ -1,0 +1,45 @@
+.UsageStatisticsSection {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.UsageStatisticsChart {
+    width: 50%;
+    height: 500px;
+    background-color: #f5f6f8;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* Responsive Code*/
+
+@media (max-width:1200px) {
+    .UsageStatisticsChart {
+        width: 80%;
+    }
+}
+
+@media (max-width:900px) {
+    .UsageStatisticsChart {
+        width: 97%;
+    }
+}
+
+@media (max-width:600px) {
+    .UsageStatisticsChart {
+        height: 400px;
+    }
+}
+
+@media (max-width:500px) {
+    .UsageStatisticsChart {
+        height: 350px;
+    }
+}
